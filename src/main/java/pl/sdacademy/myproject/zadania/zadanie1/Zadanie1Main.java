@@ -16,12 +16,28 @@ public class Zadanie1Main {
         String nazwa1 = zamowienie1.pobierzNazwa();
         String nazwa2 = zamowienie2.pobierzNazwa();
         String nazwa3 = zamowienie3.pobierzNazwa();
-        System.out.println("Zamówienia:");
-        System.out.println(nazwa1);
-        System.out.println(nazwa2);
-        System.out.println(nazwa3);
-        System.out.print("Suma zamówień:");
+        System.out.println(zamowienie1);
+        System.out.println(zamowienie2);
+        System.out.println(zamowienie3);
+        System.out.print("Suma zamówień:");/*System.out.println("Zamówienia:");
+        System.out.print(nazwa1+" ");
+        System.out.println(cena1);
+        System.out.print(nazwa2+" ");
+        System.out.println(cena1);
+        System.out.print(nazwa3+" ");
+        System.out.println(cena1);*/
+
+        System.out.println();
+
         System.out.println(cena1+cena2+cena3);
+
+        System.out.println("=============================");
+        StringBuilder bulider1 = new StringBuilder();
+        String zString = bulider1.append(zamowienie1).append("\n").
+                append(zamowienie2).append("\n").
+                append(zamowienie3).append("\n").append("Suma zamówienia: ").
+                append(cena1+cena2+cena3).toString();
+        System.out.println(zString);
 
     }
 }

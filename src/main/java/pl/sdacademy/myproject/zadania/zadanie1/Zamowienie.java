@@ -15,6 +15,10 @@ public class Zamowienie {
         return cena;
     }
 
+    public String toString(){
+        return nazwa +" "+ cena;
+    }
+
     public String pobierzNazwa() {
         return nazwa;
     }

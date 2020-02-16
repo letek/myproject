@@ -1,4 +1,4 @@
-package pl.sdacademy.myproject.interhejsy;
+package pl.sdacademy.myproject.interfejsy;
 
 public class InterfejsyMain {
 
