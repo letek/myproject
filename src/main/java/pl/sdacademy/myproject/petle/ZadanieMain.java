@@ -11,11 +11,11 @@ public class ZadanieMain {
         //
         //          imie.contains("a")
 
-        String tablicaImion[] = {"Kasia", "Renata", "Zenon", "Krysia", "Olgierd", "Beno"};
+        String tablicaImion[] = {"Alf","Kasia", "Renata", "Zenon", "Krysia", "Olgierd", "Beno"};
 
         //petla for
         for (String imie : tablicaImion) {
-            if (imie.contains("a"))
+            if (imie.contains("a") || imie.contains("A")) //or imie.toLowerCase.contains("a")
                 System.out.println(imie);
         }
         System.out.println("==========================");
