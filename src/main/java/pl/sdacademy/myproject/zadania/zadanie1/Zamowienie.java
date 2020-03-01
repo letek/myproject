@@ -16,7 +16,7 @@ public class Zamowienie {
     }
 
     public String toString(){
-        return nazwa +" "+ cena;
+        return numer +" "+nazwa +" "+ cena;
     }
 
     public String pobierzNazwa() {
